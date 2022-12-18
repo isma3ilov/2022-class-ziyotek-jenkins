@@ -9,7 +9,7 @@ provider "aws" {
 
 terraform {
    backend "s3" {
-     bucket = "public-tfpstate-rady-bucket"
+     bucket = "jenkins-bucket-ziyotek-234205822873"
      key    = "tfstate"
      region = "us-east-1"
    }
